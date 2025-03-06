@@ -1,0 +1,18 @@
+1- Navegue até o repositório:
+cd /caminho/para/seu/repositório
+
+
+2- Remova a pasta localmente:
+rm -r nome_da_pasta
+
+
+3- Remova do controle de versão do Git:
+git rm -r nome_da_pasta
+
+
+4- Faça o commit:
+git commit -m "Remove pasta 'nome_da_pasta'"
+
+
+5- Envie para o GitHub:
+git push origin sua-branch

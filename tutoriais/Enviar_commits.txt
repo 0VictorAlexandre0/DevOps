@@ -1,0 +1,30 @@
+1- Inicialize o repositório:
+git init
+
+
+1.5- (se precisar) Crie arquivos:
+mkdir nome_do_arquivo
+
+
+2- Adicione os arquivos:
+git add .
+
+
+3- Faça o commit:
+git commit -m "Primeiro commit"
+(arquivo vazio: git commit --allow-empty-message -m "")
+
+
+3.5- (se não tiver) Crie um repositório no GitHub (não adicione README, .gitignore, etc.).
+
+
+4- Conecte o repositório local ao GitHub:
+git remote add origin https://github.com/VictorAMJ/DevOps.git
+
+
+5- Verifique a conexão:
+git remote -v
+
+
+6- Envie as alterações para o GitHub:
+git push -u origin(ou nome do repositório) master/main
